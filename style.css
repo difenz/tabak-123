@@ -1,0 +1,137 @@
+body {
+    background: #000;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center; 
+    color: white;
+}
+
+.tabak123img img {
+    width: 200px;
+    height: 200px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 280px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid white;
+}
+
+input:hover {
+    transition: background-color 0.3s ease;
+    color: white;
+    background-color: #000;
+}
+
+#result {
+    font-size: 34px;
+}
+
+#operator_btns {
+    margin-bottom: 15px;
+}
+
+#plus {
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+#minus {
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid white;
+}
+
+#plus:hover {
+    background-color: #000;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#minus:hover {
+    background-color: #000;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button {
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid white;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #000;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn {
+    width: 300px;
+}
+
+span {
+    color: rgb(218, 52, 52);
+}
+
+.rainbow {
+    animation: colorRotate 2s ease-in-out 0s infinite;
+  }
+  
+  @keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }
+
+p {
+    text-align: center;
+}
+
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.btn-wrapp {
+    display: flex;
+    justify-content: center;
+}
